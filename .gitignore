@@ -1,0 +1,20 @@
+# Data (large HDF5 measurement files)
+transient_data/
+*.h5
+
+# Artifacts
+outputs/
+checkpoints/
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.DS_Store
